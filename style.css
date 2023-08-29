@@ -1,0 +1,158 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.bodyOfpage{
+    height: 80vh;
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: inherit;   
+}
+.sideleft{
+    height: 100%;
+    grid-template-columns: 0,1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 15px 15px ;
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+.sideright{
+    height: 100%;
+   grid-template-columns: 1,2;
+   display: flex;
+   flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px 7px 20px 0px  hsl(252, 100%, 67%);
+    border-radius: 0px 15px 15px 0px  ;
+    font-weight: 700;
+    font-size: 2.5vh;
+
+}
+.yourresultestyle{
+  display:flex ;
+  color: #fff;
+  font-size: 20px;
+
+}
+.scourstyle{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 25%;
+    background: linear-gradient(rgba(0,0,0 ,0.5) , rgba(255, 255, 255, 0)) ;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.scourstyle > h1{
+    font-size: 10vh;
+    margin: 0 ;
+    color: hsl(0, 0%, 100%);
+}
+.scourstyle > p {
+    text-align: center; 
+    margin: 0;
+    color: hsla(241, 100%, 89%, 0.65);
+}
+.scourstyle > h1{
+    color: #fff;
+}
+.Greatstyle{
+    display:flex ;
+
+}
+.titlestyle{
+    display:flex ;
+    text-align: center;
+    color:  hsla(241, 100%, 89%, 1);
+    font-size: 0.9em;
+    margin-top: -4em;
+}
+.ReactionStyle{
+   width: 80%;
+    display:flex ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: hsla(0, 100%, 67% ,0.1);
+    color: hsl(0, 100%, 67%);
+    border-radius: 10px;
+}
+.Memorystyle{
+   background-color: hsla(39, 100%, 56% ,0.1);
+   border-radius: 10px; 
+   width: 80%;
+   color:hsl(39, 100%, 56%) ;
+    display:flex ;
+    justify-content: space-around;
+}
+.Verbalstyle{
+    background-color: hsla(166, 56%, 81% ,0.2);
+    border-radius: 10px; 
+   width: 80%;
+   color: hsl(166, 100%, 37%);
+    display:flex ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Visualstyle{
+    background-color: hsla(234, 85%, 45% ,0.1);
+    border-radius: 10px; 
+    width: 80%;
+    color: hsl(234, 85%, 45% );
+    display:flex ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Continuestyle{
+    width: 80%;
+    height: 10%;
+    background: linear-gradient(hsl(241, 81%, 54% ), hsl(252, 100%, 67%));
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    cursor :pointer;
+    color: #fff;
+     
+}
+.ReactionStyle>img{
+margin-right: -1.7em;
+}
+.Memorystyle>img{
+margin-right: -1.7em;
+}
+.Verbalstyle>img{
+margin-right: -2em;
+}
+.Visualstyle>img{
+margin-right: -2em;
+}
+#scoredtitle{
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(113, 113, 113);
+
+}
+.summarystyle{
+    width: 80%;
+    display: flex;
+
+}
